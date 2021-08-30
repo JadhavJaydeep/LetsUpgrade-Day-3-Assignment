@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+
+.logo{
+    width: 20%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    font-size: 30px;
+    font-family: segoe ui;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav{
+    width: 40%;
+    height: 50px;
+    /* background-color: blue; */
+    display: inline-block;
+    margin-left:5%;
+    padding: auto;
+}
+
+.navigation>li{
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+    width: 23.5%;
+    /* background-color: red; */
+    font-size: 20px;
+    text-align: center;
+    font-family: segoe ui;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+
+.navigation>li:hover{
+    background-color: white;
+    
+}
+
+.dropdown1 >li{
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: segoe ui;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.dropdown1 >li:hover{
+    background-color: white;
+    color: black;
+}
+
+.dropdown1{
+    /* display: none; */
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.contact:hover > .dropdown1{
+    height: 240px;
+}
+
+
+.dropdown2>li{
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: segoe ui;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.dropdown2>li:hover{
+    background-color: white;
+    color: black;
+}
+
+.dropdown2{
+    /* display: none; */
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.shop:hover > .dropdown2{
+    height: 240px;
+}
+
